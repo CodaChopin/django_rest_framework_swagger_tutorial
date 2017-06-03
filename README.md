@@ -8,7 +8,7 @@
 
 那我們該如何撰寫 **API 文件** 給別人看呢 ？
 
-今天我要教大家用 [Swagger](https://github.com/marcgibbons/django-rest-swagger) 來完成他 ！！
+今天我要教大家使用 [Swagger](https://github.com/marcgibbons/django-rest-swagger) 來完成他 ！！
 
 ***溫馨小提醒***
 
@@ -72,13 +72,9 @@ urlpatterns = [
 
 最後執行 Django ， 然後瀏覽   [http://127.0.0.1:8000/docs/](http://127.0.0.1:8000/docs/)
 
-你應該會看到如下圖
+你應該會看到如下圖 ( 如果你沒看到任何東西，可以點一下 **Show/Hide** )
 
 ![alt tag](http://i.imgur.com/qY9pz8N.png)
-
-如果你沒看到任何東西，可以點一下 **Show/Hide**
-
-恭喜你，成功了 :smile:
 
 ### 執行畫面
 
@@ -125,7 +121,7 @@ urlpatterns = [
 class MusicViewSet(viewsets.ModelViewSet):
     queryset = Music.objects.all()
     serializer_class = MusicSerializer
-     permission_classes = (IsAuthenticated,)
+    permission_classes = (IsAuthenticated,)
 ```
 
 在 [settings.py](https://github.com/twtrubiks/django_rest_framework_swagger_tutorial/blob/master/django_rest_framework_swagger_tutorial/settings.py) 底下加入下方程式碼
@@ -143,15 +139,17 @@ LOGOUT_URL = 'rest_framework:logout'
 
 登入之後你才有權限可以看到這些資料
 
-我的 帳號/密碼 設定為 twtrubiks/password123
+我的 帳號/密碼 設定為 twtrubiks/password123 ，
+
+Swagger 的基本介紹我們就介紹到這邊，更多的說明可以參考 [Django-rest-swagger](https://github.com/marcgibbons/django-rest-swagger) 。
 
 ## 結論
 
 雖然  [Django-rest-swagger](https://github.com/marcgibbons/django-rest-swagger) 非常強大，但有時候你會發現他自訂性比較低，
 
-所以說可能還是要考慮你自己的需求下去選擇撰寫 **API 文件** 的工具，
+所以說可能還是要考慮當下的需求下去選擇撰寫 **API 文件** 的工具，
 
-接下來我將會介紹另一款自訂性較高的工具 [aglio](https://github.com/danielgtaylor/aglio)。
+下一次我將會介紹另一款自訂性較高的工具 [aglio](https://github.com/danielgtaylor/aglio)。
 
 ## 執行環境
 
