@@ -2,7 +2,7 @@
 
  Django-REST-Swagger 基本教學
 
-* [Youtube Tutorial - 等待新增]()
+* [Youtube Tutorial](https://youtu.be/ayTF26EIMFU)
 
 相信大家在網路上一定都看過 **API 文件**，
 
