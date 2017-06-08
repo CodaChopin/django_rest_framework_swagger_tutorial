@@ -149,7 +149,9 @@ Swagger 的基本介紹我們就介紹到這邊，更多的說明可以參考 [D
 
 所以說可能還是要考慮當下的需求下去選擇撰寫 **API 文件** 的工具，
 
-下一次我將會介紹另一款自訂性較高的工具 [aglio](https://github.com/danielgtaylor/aglio)。
+如果你需要自訂性較高撰寫 **API 文件** 的工具，
+
+可以參考 [aglio_tutorial](https://github.com/twtrubiks/aglio_tutorial)
 
 ## 執行環境
 
