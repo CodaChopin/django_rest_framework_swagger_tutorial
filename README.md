@@ -102,7 +102,7 @@ urlpatterns = [
 
 有沒有發現非常強大 :open_mouth:
 
-接下來你可能會擔心，這樣我的資料不就會被任何人任意操作 ？ 不用擔心，和之前介紹的 [授權 (Authenticaions )](https://github.com/twtrubiks/django-rest-framework-tutorial#%E6%8E%88%E6%AC%8A-authenticaions-) 是一樣的。
+接下來你可能會擔心，這樣我的資料不就會被任何人任意操作 ？ 不用擔心，和之前介紹的 [授權 (Authentication )](https://github.com/twtrubiks/django-rest-framework-tutorial#授權-authentications-) 是一樣的。
 
 ## 授權（ Authentication ）
 
